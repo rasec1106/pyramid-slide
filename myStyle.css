@@ -5,3 +5,18 @@ h1{
     color: red;
     background: blue;
 }
+.space{
+    display: inline-block;
+    /* background-color: coral; */
+    width: 1em;
+    height: 1em;
+    margin: 2px;
+}
+
+.brick{
+    display: inline-block;
+    /* background-color: fuchsia; */
+    width: 1em;
+    height: 1em;
+    margin: 2px;
+}
