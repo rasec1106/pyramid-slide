@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1>Pyramid slice</h1>
-    <div>
-        <div>
-            Brick symbol: 
+    <div id="menuDiv">
+        <div class="menu1">
+            <label>Brick symbol: </label> 
             <select name="brick symbol" id="brickSymbol">
                 <option value="#">#</option>
                 <option value="@">@</option>
@@ -18,14 +18,15 @@
                 <option value="X">X</option>
             </select>
         </div>
-        <div>
+        <div class="menu2">
+            <label>How high?</label>
             <input type="range" name="Pyramid height" id="pyramidHeight" min="1" max="15" value="5">
-            <label id="rangeLabel">5<label>
+            <span id="rangeLabel">5<span>
         </div>
                 
     </div>
-    <div id="pyramidContainer">
-        This is where the pyramid should go
+    <div class="container">
+        <div id="pyramidContainer"></div>
     </div>
     <script type="text/javascript" src="mainScript.js"></script>
 </body>
