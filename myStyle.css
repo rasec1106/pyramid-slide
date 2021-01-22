@@ -2,12 +2,64 @@
 This will be where all the styles should be
 */
 h1{
-    color: red;
-    background: blue;
+    color: #fff;
+    background: #606;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    padding: 20px;
+    display: block;
+}
+
+label{
+    display: block;
+} 
+
+#menuDiv{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 15px 2px;
+    border-radius: 10px;
+    height: 38px;
+    background-color: #bbb;
+}
+
+.menu1, .menu2{
+
+    border: 1px solid #9092;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+    margin: 2px;
+    padding: 10px;
+    height: 50%;
+    width: 80%;
+    background: #a0a2;    
+    
+}
+
+#pyramidContainer{
+    top: 20px;
+    margin-top: 20px;
+    display: inline-grid;
+}
+.container{
+    display: grid;
+    align-content: start;
+    justify-content: center;
+    background-color: darkgrey;
+    border-radius: 10px;
+    min-height: 50vh;
+    height: auto;
+
 }
 .space{
     display: inline-block;
-    /* background-color: coral; */
     width: 1em;
     height: 1em;
     margin: 2px;
@@ -15,8 +67,8 @@ h1{
 
 .brick{
     display: inline-block;
-    /* background-color: fuchsia; */
     width: 1em;
     height: 1em;
     margin: 2px;
+    text-align: center;
 }
